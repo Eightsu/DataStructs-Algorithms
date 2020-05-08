@@ -1,0 +1,22 @@
+{
+  "name": "dsal",
+  "version": "1.0.0",
+  "description": "data structures and algorithms for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "education",
+    "practice",
+    "javascript"
+  ],
+  "author": "sutra <jamarpowell.dev@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "type": "module"
+}
