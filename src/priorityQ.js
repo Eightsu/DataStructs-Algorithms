@@ -1,5 +1,5 @@
 
-class PriorityQueue {
+export default class {
   constructor (values = []) {
     this.values = values;
   }
@@ -65,6 +65,7 @@ class PriorityQueue {
     if (!data || !priority) return null;
     this.values.push(node);
     this.bubbleUp();
+    return this;
   }
 
   deQueue () {
@@ -75,7 +76,4 @@ class PriorityQueue {
     this.bubbleDown();
     return min;
   }
-
 }
-
-export { PriorityQueue };
